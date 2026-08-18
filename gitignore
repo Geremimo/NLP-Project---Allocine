@@ -1,0 +1,34 @@
+# Environnements virtuels
+venv/
+env/
+.venv/
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Données (à ne pas versionner - téléchargées via `datasets`)
+data/
+*.csv
+*.parquet
+*.jsonl
+
+# Cache HuggingFace (au cas où il se retrouve dans le dossier du projet)
+.cache/
+huggingface/
+
+# macOS
+.DS_Store
+
+# Environnements / IDE
+.vscode/
+.idea/
+
+# Modèles entraînés sauvegardés (souvent volumineux)
+*.pkl
+*.joblib
+models/
